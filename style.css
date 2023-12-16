@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+  background-color: black;
+  background-size: 100%;
+  font-size: large;
+  color: white;
+  width: 100%;
+  height: 30px;
+}
+
+div {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+    border: 1px solid rgb(8, 7, 7);
+}
+
+h1 {
+
+}
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.azul {
+    color: blue;
+}
+
+.rojo {
+    color: red;
+}
+
+#punto5 .p1 {
+    color: green;
+    text-decoration: underline;
+}
+
+#punto5 .p2 {
+    color: red;
+    font-weight: bold;
+}
+
+#punto5 .p3 {
+    text-decoration: overline underline;
+}
+
+#punto5 .p4 {
+    font-weight: bold;
+    font-size: 30px;
+}
+#punto5 .p5 {
+    font-weight: bold;
+    color: blue;
+}
+#punto5 .p6 {
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+}
+
+#punto6 .diario1 {
+    font-size: 25px;
+    text-decoration: underline;
+    color: rgb(85, 148, 224);
+    font-weight: bold;
+}
+
+#punto6 .diario1:hover {
+    color: rgb(42, 31, 161);
+    text-shadow: 0 0 30px rgb(21, 15, 188);
+}
+
+#punto6 .diario2 {
+    font-size: 25px;
+    text-decoration: underline;
+    color: purple;
+    font-weight: bold;
+}
+
+#punto6 .diario2:hover {
+    background-color: blueviolet;
+    color: rgb(251, 249, 248);
+}
+
+#punto7 nav {
+    background-color: rgb(1, 37, 37);
+}
+
+#punto7 ul {
+    display: inline-flex;
+}
+
+#punto7 li {
+    padding: 15px 10px;
+    list-style: none;
+}
+
+#punto7 li:hover {
+    background-color: rgb(30, 114, 86);
+    box-shadow: 0 0 30px rgb(53, 211, 151);
+}
+
+#punto7 i {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    color:white;
+}
+
+#punto8 table {
+    background-color: rgb(56, 101, 225);
+    border: 1px groove rgb(246, 240, 240);
+    padding: 0px;
+}
+
+#punto8 table th::first-letter {
+    font-weight: bold;
+}
+
+#punto8 table th {
+    color: white;
+    font-style: 'sans serif';
+    border: solid;
+}
+
+#punto8 table td {
+    padding: 0px;
+    border: solid white;
+}
+
+footer {
+    display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+  background-color: black;
+  background-size: 100%;
+  font-size: large;
+  color: white;
+  width: 100%;
+  height: 30px;
+}
