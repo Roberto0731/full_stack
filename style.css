@@ -1,109 +1,165 @@
 *{
+    padding: 0;
+    margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-hr{
+
+header {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+  background-color: black;
+  background-size: 100%;
+  font-size: large;
+  color: white;
+  width: 100%;
+  height: 30px;
+}
+
+div {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+hr {
     width: 80%;
     margin: auto;
-    border: 1px solid rgb(81, 81, 81);
+    border: 1px solid rgb(8, 7, 7);
 }
-section{
+
+h1 {
+
+}
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2;
     width: 80%;
     height: auto;
     margin: auto;
 }
-strong{
-  margin-bottom: 20px;
-}
-.azul{
+
+.azul {
     color: blue;
 }
-.rojo{
+
+.rojo {
     color: red;
 }
-#punto4 h2{
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-}
-#punto5 .p1{
+
+#punto5 .p1 {
     color: green;
     text-decoration: underline;
 }
-#punto5 .p2{
+
+#punto5 .p2 {
     color: red;
     font-weight: bold;
 }
-#punto5 .p3{
+
+#punto5 .p3 {
     text-decoration: overline underline;
 }
-#punto5 .p4{
+
+#punto5 .p4 {
     font-weight: bold;
     font-size: 30px;
 }
-#punto5 .p5{
+#punto5 .p5 {
     font-weight: bold;
     color: blue;
 }
-#punto5 .p6{
+#punto5 .p6 {
     font-weight: bold;
     color: red;
     text-decoration: underline;
 }
-#punto6{
-  margin-bottom: 15px;
-}
-#punto6 .diario1{
+
+#punto6 .diario1 {
     font-size: 25px;
     text-decoration: underline;
-    color: yellow;
+    color: rgb(85, 148, 224);
     font-weight: bold;
 }
-#punto6 .diario1:hover{
-    color: black;
+
+#punto6 .diario1:hover {
+    color: rgb(42, 31, 161);
+    text-shadow: 0 0 30px rgb(21, 15, 188);
 }
-#punto6 .diario2{
+
+#punto6 .diario2 {
     font-size: 25px;
     text-decoration: underline;
     color: purple;
     font-weight: bold;
 }
-#punto6 .diario2:hover{
-    color: red;
+
+#punto6 .diario2:hover {
+    background-color: blueviolet;
+    color: rgb(251, 249, 248);
 }
-#punto7 nav{
-    background-color: blue;
-  margin-top: 10px;
+
+#punto7 nav {
+    background-color: rgb(1, 37, 37);
 }
-#punto7 ul{
+
+#punto7 ul {
     display: inline-flex;
 }
-#punto7 li{
+
+#punto7 li {
     padding: 15px 10px;
     list-style: none;
 }
-#punto7 li:hover{
-    background-color: blue;
+
+#punto7 li:hover {
+    background-color: rgb(30, 114, 86);
+    box-shadow: 0 0 30px rgb(53, 211, 151);
 }
-#punto7 i{
+
+#punto7 i {
     font-weight: bold;
     font-style: normal;
     font-size: 18px;
-    color: green;
+    color:white;
 }
-#punto8 table{
-    background-color: yellow;
-    border: 1px dotted black;
+
+#punto8 table {
+    background-color: rgb(56, 101, 225);
+    border: 1px groove rgb(246, 240, 240);
     padding: 0px;
 }
-#punto8 table th::first-letter{
+
+#punto8 table th::first-letter {
     font-weight: bold;
 }
-#punto8 table th{
-    color: red;
-    font-style: italic;
-    border: none;
+
+#punto8 table th {
+    color: white;
+    font-style: 'sans serif';
+    border: solid;
 }
-#punto8 table td{
+
+#punto8 table td {
     padding: 0px;
-    border: 1px dotted black;
+    border: solid white;
+}
+
+footer {
+    display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+  background-color: black;
+  background-size: 100%;
+  font-size: large;
+  color: white;
+  width: 100%;
+  height: 30px;
 }
